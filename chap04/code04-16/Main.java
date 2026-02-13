@@ -1,0 +1,6 @@
+void main() {
+  boolean judge = true;
+  if (judge == true) {
+    int[] array = {1, 2, 3};
+  }
+}
