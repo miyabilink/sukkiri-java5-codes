@@ -5,10 +5,10 @@ void main() {
   IO.println("足すと" + total + "、引くと" + delta);
 }
 
-int tasu(int a, int b) {
+public static int tasu(int a, int b) {
   return (a + b);
 }
 
-int hiku(int a, int b) {
+public static int hiku(int a, int b) {
   return (a - b);
 }
