@@ -6,6 +6,6 @@ void main() {
   IO.println("メソッドの呼び出しが終わりました");
 }
 
-void hello(String name) {
+public static void hello(String name) {
   IO.println(name + "さん、こんにちは");
 }

@@ -1,15 +1,15 @@
 // 1つ目のaddメソッド
-int add(int x, int y) {
+public static int add(int x, int y) {
   return x + y;
 }
 
 // 2つ目のaddメソッド
-double add(double x, double y) {
+public static double add(double x, double y) {
   return x + y;
 }
 
 // 3つ目のaddメソッド
-String add(String x, String y) {
+public static String add(String x, String y) {
   return x + y;
 }
 
@@ -19,4 +19,5 @@ void main() {
   IO.println(add(3.5, 2.7));
     /* 2つ目のaddメソッドが呼び出される */
   IO.println(add("Hello", "World"));
-}   /* 3つ目のaddメソッドが呼び出される */
+    /* 3つ目のaddメソッドが呼び出される */
+}

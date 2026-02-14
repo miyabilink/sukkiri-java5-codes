@@ -1,9 +1,9 @@
-void methodA() {
+public static void methodA() {
   IO.println("methodA");
   methodB();
 }
 
-void methodB() {
+public static void methodB() {
   IO.println("methodB");
 }
 

@@ -4,7 +4,7 @@ void main() {
   add();
 }
 
-void add() {
+public static void add() {
   int ans = x + y;
   IO.println(x + "+" + y + "=" + ans);
 }

@@ -4,7 +4,7 @@ void main() {
 }
 
 // 複数の値を受け取るaddメソッド
-void add(int x, int y) {
+public static void add(int x, int y) {
   int ans = x + y;
   IO.println(x + "+" + y + "=" + ans);
 }
