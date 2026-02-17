@@ -1,0 +1,14 @@
+public class Hero {
+  String name;
+  int hp;
+  Sword sword;
+
+  public void attack() {
+    IO.println(this.name + "は攻撃した！");
+    IO.println("敵に5ポイントのダメージをあたえた！");
+  }
+  public Hero(String name) {
+    this.hp = 100;
+    this.name = name;    // 引数の値でnameフィールドを初期化
+  }
+}
